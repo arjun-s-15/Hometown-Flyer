@@ -1,0 +1,110 @@
+body{
+    text-align: center;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hero{ padding-top:120px ;
+    width: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       color: white;
+       background-image: url(images/Torshov.jpeg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       
+       margin: auto;
+       
+}   
+
+#hero-title{
+    background:#1D3557 ;
+    padding: 5px 12px ;
+    border-radius: 15px;
+    font-size: 32px;
+    font-weight: 700; 
+    margin-bottom: 0;
+}
+
+#hero-subtitle{
+    border-radius: 10px;
+    background: #457B9D;
+    width: 410px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 355px;
+    height: 39px;
+    padding: 5px 30px;
+    margin-bottom: 130px;
+}
+
+#activities-section{
+    padding-top:60px  ;
+    background: #F1FAEE;
+    height: auto;
+    
+    
+}
+#activities-title{
+    color:#1D3557;
+    width: 900px;
+    margin: auto;
+    padding-bottom: 40px;
+    font-size: 24px;
+    font-weight: 700;
+}
+#activity-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 950px;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.activity{
+    width: 200px;
+    color: #1D3557;
+}
+
+.ac-image{
+    width: 150px;
+    border-radius: 50%;
+}
+
+#guide{
+    background: #fff;
+    padding: 50px 160px;
+    color: #1D3557;
+    
+    text-align: center;
+    font-size: 16px ;
+    font-weight: 700;
+}
+#guide-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 400px;
+    height: auto;
+    padding: 23px 15px;
+    margin: auto;
+    border-radius: 10px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px 0px #1D3557;
+}
+p{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+}
+#per{
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+}
